@@ -13,22 +13,21 @@
 </head>
 <body>
     <div class="container">
+        <div class="crny-cnvt">
         <h2>curreny converter</h2>
+        </div>
         <form>
             <div class="amount">
                 <p>Enter amount</p>
-                <input  type="text" />
+                <input  type="text" value="1" />
             </div>
             <div class="dropdown">
                 <div class="form">
                     <p>from</p>
                     <div class="select-container">
-                        <img src="https://flagsapi.com/IN/flat/64.png" />
+                        <img src="https://flagsapi.com/US/flat/64.png" />
                         <select name="from">
-                            <option value="IND">IND</option>
-                            <option value="USD">USA</option>
-                            <option value="EUR">EUR</option>
-                            <option value="AUS">AUS</option>
+                            <option></option>
                         </select>
                     </div>
                 </div>
@@ -36,14 +35,11 @@
 
                 <div class="to">
                      <p>to</p>
-                     <img src="https://flagsapi.com/BE/flat/64.png" />
-                     <select name="to">
-                        <option value="IND">IND</option>
-                        <option value="USA">USA</option>
-                        <option value="EUR">EUR</option>
-                        <option value="AUS">AUS</option>
-                     </select>
-
+                     <div class="select-container">
+                       <img src="https://flagsapi.com/IN/flat/64.png" />
+                       <select name="to">
+                       </select>
+                     </div>
                 </div>
                     
              </div>
@@ -54,6 +50,7 @@
             </div>
         </form>
     </div>
+    <script src="code.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

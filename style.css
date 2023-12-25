@@ -8,14 +8,19 @@ body{
     justify-content:center ;
     align-items: center;
     min-height: 100vh;
-    background-color: beige;
+    background-color: rgb(9, 76, 35);
 }
 .container{
-    background-color: rgb(241, 245, 249);
+    background-color: rgb(249, 250, 252);
     padding: 2rem;
     border-radius: 2rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 50vh;
+    width: 50vh;
+}
+
+
+.crny-cnvt {
+    text-align: center;
 }
 
 form{
@@ -29,13 +34,59 @@ form select,button,input {
 }
 
 form input {
-    border:
+   border :1px solid lightgray;
+   font-size: 0.9rem;
+   height: 1rem;
+   padding-left:0.5rem;
+
 }
 
 
 .dropdown {
     display: flex;
     justify-content: space-between;
+    column-gap: 7vh;
     align-items: center;
-    margin: 2rem;
+    margin-top: 1rem;
+}
+.msg {
+    margin-top: 1rem ;
+}
+form button{
+    margin-top: 1rem;
+    height: 5vh;
+    border-radius: 0.5rem;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    border: 1px solid rgb(25, 3, 134);
+    
+}
+ form button:hover{
+    background-color: rgb(40, 25, 25);
+    color:white;
+ }
+
+.select-container img{
+    max-width: 3rem;
+
+}
+
+.dropdown i {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.select-container{
+    display: flex;
+    width: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(14, 13, 13);
+
+}
+.select-container select{
+    font-size: 0.8rem;
+    cursor: pointer;
 }
