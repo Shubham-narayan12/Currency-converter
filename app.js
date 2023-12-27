@@ -6,13 +6,14 @@ const amount = document.querySelector("form input");
 const fromcurr= document.querySelector(".form select");
 const tocurr= document.querySelector(".to select");
 const msg=document.querySelector(".msg p");
+//var newOption= document.querySelectorAll(".dropdown option");
 
 
 for(let select of dropdown){
     for(let code in countryList){
          let newOption=document.createElement("option");
          newOption.innerText=code;
-         newOption.value=code;
+         //newOption.value=code;
          if(select.name === "from" && code === "USD"){
             newOption.selected="selected";
          }else if (select.name === "to" && code === "INR"){
